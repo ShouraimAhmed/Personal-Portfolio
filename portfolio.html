@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shouraim - Portfolio</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+        body{
+            background-color:black;
+            color: white;
+            font-family:cursive
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 30px;
+            background-color: black;
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+        }
+        nav ul li a:hover{
+            color:maroon;
+            font-size: 1.2rem;
+        }
+        main hr{
+            border: 0;
+            background: rgb(1, 1, 24);
+            height: 1.2rem;
+            margin: 60px 84px; 
+        }
+        .left{
+            font-size: 1.5rem;
+        }
+
+        .firstSection{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 130px 0;
+        }
+
+        .firstSection > div{
+            width:30%
+        }
+
+        .leftSection{
+            font-size: 2rem; 
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        .leftSection .btn{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            padding: 12px;
+            background-color: rgb(0, 0, 20);
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+            
+        }
+
+        .leftSection .button{
+            padding: 50px 0;
+        }
+
+        .rightSection img{
+            width: 100%;
+            margin: 20px 0;
+            margin-left: 30px;
+        }
+        .purple{
+            color:white;
+        }
+
+        #element{
+            color: white;
+            font-size: 3rem;
+            font-family: cursive;
+        }
+        .secondSection{
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+        .secondSection h1{
+            font-size: 1.9rem;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        }
+        .text-gray{
+            color:gray;
+        }
+
+        .secondSection .box{
+            background: white;
+            width:77vw;
+            height:2px;
+            margin:56px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical{
+            height:93px;
+            width: 1px;
+            background-color: white;
+            margin:0 120px;
+        }
+
+        .vertical-title{
+            position: relative;
+            top:75px;
+            width:150px;
+            font-size:  14px;
+        }
+
+        .vertical-desc{
+            position:relative;
+            top:86px;
+            color:gray;
+            width: 150px;
+            font-size: 9px;
+        }
+        
+        .image-top{
+            width: 30px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+        .footer{
+            background:#0e0e1a;
+        }
+        .footer-first{
+            font-family:'Times New Roman', Times, serif;
+        }
+
+        .footer-second{
+            font-family:'Times New Roman', Times, serif;
+        }
+
+        .footer-third{
+            font-family:'Times New Roman', Times, serif;
+        }
+        .footer{
+            display: flex;
+            padding:  23px 122px;
+            justify-content: space-evenly;
+        }
+        footer ul{
+            list-style: none;
+        }
+
+        .footer >div{
+            width: 223px;
+        }
+         .footer-rights{
+            font-family:monospace;
+            text-align:center;
+            color: gray;
+            padding: 12px 0;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left"> Shouraim's Portfolio</div>
+            <div class="right">
+                <ul>
+                <li><a href="blank.html">Home</a></li>
+                <li><a href="blank.html">About</a></li>
+                <li><a href="blank.html">Services</a></li>
+                <li><a href="blank.html">Projects</a></li>
+                <li><a href="blank.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi,My name is <span class="purple">Shouraim</span>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+                <div class="button">
+                    <a href="resume.pdf"><button class="btn">Download Resume </button></a>
+                    <a href="https://github.com/ShouraimAhmed"><button class="btn"> Visit Github</button></a>
+                </div>
+
+            </div>
+            <div class="rightSection">
+                <img src="devloper2-removebg-preview.png" alt="">
+            </div>
+        </section>
+        <section class="secondSection">
+            <span class="text-gray"> What I have  done so far</span>
+            <h1> Work Experience</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="html.png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer 
+                        <div> (2018-2020) </div>
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos consectetur sed voluptates, ex quo qui minus? Assumenda, officiis et officia atque culpa, impedit soluta ad expedita exercitationem eveniet omnis voluptatum possimus maiores natus vel cumque repellat distinctio ipsam sed! Iure animi ratione placeat voluptates! Magni iure culpa dolorem quibusdam? Saepe reiciendis ullam ea!
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="download.png" alt="">
+                    <div class="vertical-title">
+                        Node.js Developer  
+                        <div> (2020-2022)</div>
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos consectetur sed voluptates, ex quo qui minus? Assumenda, officiis et officia atque culpa, impedit soluta ad expedita exercitationem eveniet omnis voluptatum possimus maiores natus vel cumque repellat distinctio ipsam sed! Iure animi ratione placeat voluptates! Magni iure culpa dolorem quibusdam? Saepe reiciendis ullam ea!
+                    </div>
+                </div>
+                <div class="vertical"> 
+                    <img class="image-top" src="dev2.png" alt="">
+                    <div class="vertical-title">
+                        Software Developer
+                        <div> (2022-2024)</div>
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos consectetur sed voluptates, ex quo qui minus? Assumenda, officiis et officia atque culpa, impedit soluta ad expedita exercitationem eveniet omnis voluptatum possimus maiores natus vel cumque repellat distinctio ipsam sed! Iure animi ratione placeat voluptates! Magni iure culpa dolorem quibusdam? Saepe reiciendis ullam ea!
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="insta.jpg" alt="">
+                    <div class="vertical-title">
+                        HTML Developer - Instagram
+                        <div> (2018-2024)</div>
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos consectetur sed voluptates, ex quo qui minus? Assumenda, officiis et officia atque culpa, impedit soluta ad expedita exercitationem eveniet omnis voluptatum possimus maiores natus vel cumque repellat distinctio ipsam sed! Iure animi ratione placeat voluptates! Magni iure culpa dolorem quibusdam? Saepe reiciendis ullam ea!
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3> Shouraim's Developer portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    </ul>
+                
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+                    
+            </div>
+        </div>
+        <div class="footer-rights">
+             copyright &copy;shouraimsportolio.com | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+     <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+        strings: ['Web Developer','Software Dev'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+</body>
+</body>
+</html> 
